@@ -18,3 +18,8 @@ python -m venv venv
 # Activate on Windows:
 .\venv\Scripts\activate
 
+### 2. Installing Dependencie
+Run the following commands in your terminal:
+
+```bash
+pip install pyrealsense2 numpy opencv-python
