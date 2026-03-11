@@ -17,9 +17,28 @@ python -m venv venv
 
 # Activate on Windows:
 .\venv\Scripts\activate
+```
 
 ### 2. Installing Dependencie
 Run the following commands in your terminal:
 
 ```bash
 pip install pyrealsense2 numpy opencv-python
+```
+
+### Trouble Shooting
+In case there is permission error
+
+```Terminal
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\Activate.ps1
+#Note: You should see (venv) appear at the start of your command line once successful.
+```
+
+### 3. Running the Code
+Once D435i connected, Run this following Code
+
+```bash
+python venv/realsense_capture.py
+```
+
